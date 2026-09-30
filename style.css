@@ -1,0 +1,26 @@
+/* Light grey page background */
+body {
+    background-color: #f3f5f8;
+}
+
+/* Dark teal header (extra bottom space so the cards can overlap it) */
+.header {
+    background-color: #14506b;
+    padding-bottom: 4rem !important;
+}
+
+/* Pull the cards up over the header */
+.cards {
+    margin-top: -3rem;
+}
+
+/* Teal button to match the header */
+.btn-brand {
+    background-color: #14506b;
+    color: white;
+}
+
+.btn-brand:hover {
+    background-color: #0e3d53;
+    color: white;
+}
